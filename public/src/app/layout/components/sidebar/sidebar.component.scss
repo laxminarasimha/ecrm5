@@ -1,4 +1,4 @@
-$topnav-background-color: #222;
+$topnav-background-color: #999;
 .sidebar {
     border-radius: 0;
     position: fixed;
@@ -25,7 +25,7 @@ $topnav-background-color: #222;
             background: $topnav-background-color;
             border: 0;
             border-radius: 0;
-            color: #999;
+            color: #222;
             text-decoration: none;
             .fa {
                 margin-right: 10px;
@@ -37,7 +37,7 @@ $topnav-background-color: #222;
         }
         a.router-link-active {
             background: darken($topnav-background-color, 5%);
-            color: #fff;
+            color: #222;
         }
     }
     .sidebar-dropdown {
